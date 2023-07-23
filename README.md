@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Header & button setup
+
+Start by using `ng g c <pathName/comnponentName>` to create the coponents for both header & button components.
+
+- We'll be first passing our header component root path into our main html component
+
+- Using string interpolation place the title variable inside of our header component then also use our root path of our button component inside to pass our button into the header
+
+## Adding the Task's
+
+- We'll have a task coponent & item for each item 
+- This will come from JSON Server (which is a fake Rest API that we can create & run locally)
+- This will just export our task's and set them into an array of objects with custom values
+- We also want to create an interface for the tasks liek what specific fields should the model contain 
