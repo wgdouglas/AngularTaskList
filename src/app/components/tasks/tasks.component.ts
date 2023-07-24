@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TaskService } from 'src/app/services/task.service';
 import { Task } from 'src/app/Task';
 
+
 @Component({
   selector: 'app-tasks',
   templateUrl: './tasks.component.html',
@@ -13,6 +14,7 @@ export class TasksComponent implements OnInit{
 constructor(private taskService: TaskService) { }
 
 ngOnInit(): void { 
-  this.tasks = this.taskService.getTasks();//this is not the right way and should be done with Observables
+  this.taskService.getTasks().subscribe((tasks) =>
+   this.tasks = tasks);
 }
 }
