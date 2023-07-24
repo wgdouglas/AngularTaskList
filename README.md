@@ -39,4 +39,8 @@ Start by using `ng g c <pathName/comnponentName>` to create the coponents for bo
 - We'll have a task coponent & item for each item 
 - This will come from JSON Server (which is a fake Rest API that we can create & run locally)
 - This will just export our task's and set them into an array of objects with custom values
-- We also want to create an interface for the tasks liek what specific fields should the model contain 
+- We also want to create an interface for the tasks like what specific fields should the model contain
+
+## Creating a Delete Icon and it's functionality
+- You can use an angular package called `Font-Awesome` (https://github.com/FortAwesome/angular-fontawesome)
+- For this since we have the latest angluar we can just use the add command of `ng add @fortawesome/angular-fontawesome`
