@@ -17,6 +17,12 @@
       "text": "Grocery Shopping",
       "day": "May 5th at 7:35pm",
       "reminder": false
+    },
+    {
+      "text": "Play Video Games",
+      "day": "July 2nd at 9:30pm",
+      "reminder": true,
+      "id": 4
     }
   ]
 }

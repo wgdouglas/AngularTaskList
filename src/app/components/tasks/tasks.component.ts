@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
 import { TaskService } from 'src/app/services/task.service';
 import { Task } from 'src/app/Task';
 
@@ -29,5 +30,9 @@ deleteTask(task: Task) {
 toggleReminder(task: Task){
   task.reminder = !task.reminder;
   this.taskService.updateTaskReminder(task).subscribe();
+}
+
+addTask(task: Task){
+  this.taskService.addTask(task).subscribe((task) => this.tasks.push(task));
 }
 }
