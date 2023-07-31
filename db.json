@@ -23,6 +23,12 @@
       "day": "July 2nd at 9:30pm",
       "reminder": true,
       "id": 4
+    },
+    {
+      "text": "Finish RxJS Scetion",
+      "day": "July 30th at 9:30pm",
+      "reminder": true,
+      "id": 5
     }
   ]
 }

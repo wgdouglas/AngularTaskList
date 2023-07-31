@@ -12,12 +12,14 @@ body {
 }
 
 .container {
-    max-width: 500px;
-    margin:30px auto;
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-right:30px auto;
     overflow: auto;
     min-height: 300px;
-    border: 1px solid steelblue;
-    padding: 30px;
+    border-radius: 25px;
+    border: 2px solid steelblue;
+    padding: 50px;
     border-radius: 5px;
 }
 
@@ -78,3 +80,10 @@ body {
     flex: 2;
     height: 20px;
 }
+
+.example-spacer {
+    flex: 1 1 auto;
+    color: #ffbf00;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

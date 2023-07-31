@@ -1,0 +1,14 @@
+.container-card{
+    background-color: rgba(0,0,0,.5);
+    color: #fff;  
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-right:50px auto;
+    overflow: auto;
+    min-height: 300px;
+    border-radius: 25px;
+    padding: 50px;
+}
+.background-image{
+    display:flex;
+}

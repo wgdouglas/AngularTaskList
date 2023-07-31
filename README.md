@@ -52,9 +52,11 @@ Start by using `ng g c <pathName/comnponentName>` to create the coponents for bo
 - Now inside of our task.ts file we'll set our method of deleteTask & pass in our index of task since we're only aiming to delete just the one instance of that index from our array
 
 ## Creating a Add button and it's functionality
-- This section is going to be started bt first adding our `add-task` component, then we will add our styling's by using `form-control` & passing in a label & input
+- This section is going to be started but first adding our `add-task` component, then we will add our styling's by using `form-control` & passing in a label & input
 - with this we'll add stylings in each with an id, name, placeholder and class
 -Now when working with forms we want to put a property in for each of our filed's of 'day, text, & reminder' which we'll add these properties inside of our `add-task`.ts file but make sure that reminder is passed as a boolean since it only hold's a boolean value
 - for setting up our properties to have two-way data binding with our inputs we'll utalize the `ngMoldel` directive from our forms module which we first have to add to our `app.module.ts`
 - Now for two-way data binding we use brackets for input & we use parenthesis for event binding but for this we will be using both in order to properly use  `ngModel` directive & set it to the name property of each input & make sure that the attributes have the same name value per input
 
+## (Optional continuation) Adding RxJS subjects
+- you can use the link: (https://rxjs.dev/guide/subject) as a reference
